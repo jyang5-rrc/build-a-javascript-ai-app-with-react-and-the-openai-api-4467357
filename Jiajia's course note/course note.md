@@ -75,6 +75,28 @@ https://openweathermap.org/current
 4.2 create a codespace on main
 > This codespace is a virtual machine that runs my project inside Visual Studio Code in my browser.
 
+Steps:
+```
+a. terminal run: npm create vite@latest
+b. Choose React--javascript+ svm--create the folder and cd it.
+c. Run: npm install
+d. Run: npm run dev
+```
+
+
+## 5. Boot up the app in GitHub Codespaces
+use online codespace or use the real local environment.
+
+## 6.Work with the OpenWeatherMap API
+1) Modify the API in `.env.local.template` file to connect the weathermap API.
+    ```
+    VITE_OPENAI=[Your OpenAI API Key]
+    VITE_OWM=[Your Open Weather Map API Key]
+    ```
+    **Delete the first line, change you API key into the second line.
+
+2) Rename the file `.env.local`.
+3) Create API key.
 
 
 
