@@ -96,7 +96,36 @@ use online codespace or use the real local environment.
     **Delete the first line, change you API key into the second line.
 
 2) Rename the file `.env.local`.
-3) Create API key.
+3) Create an API key.
+   ```
+   go to weather map website,create an account and then apply for a API key.
+
+   https://home.openweathermap.org/
+   ```
+
+## 7. APP work-through
+Introduce the app.jsx in the react.
+
+## 8. What is the OpenAI API, and how does it relate to ChatGPT?
+1) ChatGPT is based on OpenAI API. So we can use OpenAI API to create our own code. OpenAI API provides much deeper code access than ChatGPT. As a developer has a more control of the AI without the user filters ChatGPT.
+2) When use OpenAI API , pay for the token use. So the bigger prompts you use or more prompt you send, the more money you spend.
+3) Most of the OpenAI API is just like the other APIs, except that the current AI API is non-deterministic. That means we will not know what the response is , no matter how much you try to control it.
+
+## 9. Test the API in the OpenAI playground
+1) put the rules in system chat box
+2) then give the user input question
+3) submit , get the answer with chatgpt 3.5 turbo or other version. Which we can choose.
+
+## 10. Generate secret keys
+1) API key generate. When a new API created, copy it immediately.
+2) Paste the API key into `env.local`:
+   ```
+   VITE_OPENAI= 'paste the API key here'
+   ```
+  
+## 11. Test the API with client
+The REST client we chosen is Postman.
+> REST client : the term "REST client" refers to the software or tools that consume or use REST APIs, not the organizations or services that provide them. These clients make requests to and handle responses from RESTful services to access or manipulate resources.
 
 
 
